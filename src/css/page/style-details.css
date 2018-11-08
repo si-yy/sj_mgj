@@ -1,0 +1,811 @@
+@import url("../lib/reset.css");
+.datails_nav {
+    border-bottom: 1px solid lightgray;
+    height: 45px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: white;
+    z-index: 99998;
+}
+.datails_nav .datails_nav_tab {
+    padding: 0 3px;
+    box-sizing: border-box;
+    width: 25%;
+    height: 45px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+.datails_nav .datails_nav_tab a {
+    color: black;
+}
+.datails_nav .active {
+    border-bottom: 2px solid #007aff;
+}
+.datails_nav .active a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ff2255;
+}
+.datails_main {
+    width: 100%;
+    height: auto;
+}
+.datails_main .datails_module_primary {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.datails_main .datails_module_primary .swiper-container {
+    width: 100%;
+    height: 567px;
+    margin: 0 auto 0;
+    box-sizing: border-box;
+}
+.datails_main .datails_module_primary .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.datails_main .datails_module_primary .swiper-slide .logimg {
+    width: 100%;
+    height: auto;
+}
+.datails_main .datails_module_primary .title_cotent {
+    z-index: 99998;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: white;
+    position: absolute;
+    bottom: -91px;
+}
+.datails_main .datails_module_primary .title_cotent .title_text {
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.datails_main .datails_module_primary .price {
+    border-bottom: 1px solid #cacaca;
+    position: absolute;
+    background: white;
+    bottom: -144px;
+    z-index: 99998;
+    height: 54px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.datails_main .datails_module_primary .price .price_unit {
+    margin-top: 10px;
+    float: left;
+}
+.datails_main .datails_module_primary .price .price_unih {
+    float: left;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.datails_main .datails_module_primary .price .price_unid {
+    margin-top: 10px;
+    display: block;
+    float: left;
+    text-decoration: line-through;
+    color: #999;
+}
+.datails_main .datails_module_primary .price .price_uniz {
+    text-align: center;
+    margin-top: 25px;
+    line-height: 16px;
+    margin-left: 84px;
+    font-size: 12px;
+    width: 30px;
+    height: 20px;
+    background-color: #ffe8ee;
+    display: block;
+    color: #ff2255;
+}
+.datails_main .datails_module_primary .datails_meili {
+    background: white;
+    margin-top: 30px;
+    height: 75px;
+    width: 100%;
+    border-bottom: 8px solid #eaeaea;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+}
+.datails_main .datails_module_primary .datails_meili .datails_meili_li {
+    margin-top: 16px;
+    float: left;
+    width: 24%;
+}
+.datails_main .datails_module_primary .datails_meili .datails_meili_li .datails_meili_img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+.datails_main .datails_module_primary .datails_meili .datails_meili_li .datails_meili_text {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+.datails_main .datails_module_primary .datails_meili .datails_meilid {
+    float: left;
+    margin-top: 26px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    color: #cacaca;
+    width: 10px;
+    height: 20px;
+}
+.datails_main .datails_meili-all {
+    padding: 5px 10px 0;
+    margin-top: 222px;
+    height: 77px;
+    width: 100%;
+    border-bottom: 10px solid #eaeaea;
+    box-sizing: border-box;
+}
+.datails_main .datails_meili-all .datails_head {
+    font-size: 14px;
+    height: 24px;
+    width: 100%;
+    border-bottom: 1px solid #cacaca;
+}
+.datails_main .datails_meili-all .datails_redurc {
+    margin-top: 10px;
+    float: left;
+    height: 42px;
+}
+.datails_main .datails_meili-all .datails_redurc .datails_redurc_li {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: #ff2255;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+.datails_main .datails_meili-all .datails_redurc_text {
+    margin-top: 10px;
+    float: right;
+}
+.datails_main .datails_more-sku {
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-bottom: 10px solid #eaeaea;
+    width: 100%;
+    height: 45px;
+}
+.datails_main .datails_more-sku .datails_more-sku_left {
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+}
+.datails_main .datails_more-sku .datails_more-sku_right {
+    font-size: 14px;
+    line-height: 30px;
+    float: right;
+}
+.datails_main .datails_base-rate {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.datails_main .datails_base-rate .datails_base-rate_head {
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+.datails_main .datails_base-rate .datails_base-rate_head .datails_base-rate_heads {
+    font-size: 14px;
+    line-height: 30px;
+    color: black;
+    float: left;
+}
+.datails_main .datails_base-rate .datails_base-rate_head .datails_base-rate_tite {
+    font-size: 14px;
+    line-height: 30px;
+    float: right;
+}
+.datails_main .datails_base-rate .datails_list-item {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #cacaca;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_list-item_user {
+    width: 100%;
+    height: 40px;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_list-item_user .datails_list-item_user1 {
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    float: left;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_list-item_user .datails_list-item_user1 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_list-item_user .datails_list-item_user2 {
+    margin-left: 10px;
+    line-height: 30px;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_list-item_text {
+    margin-top: 2px;
+    font-size: 14px;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_time {
+    margin: 10px;
+}
+.datails_main .datails_base-rate .datails_list-item .datails_time .datails_time_sj {
+    color: #999;
+}
+.datails_main .datails_base-rate .datails_list-item1 {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_list-item_user1 {
+    width: 100%;
+    height: 40px;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_list-item_user1 .datails_list-item_user2 {
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    float: left;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_list-item_user1 .datails_list-item_user2 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_list-item_user1 .datails_list-item_user3 {
+    margin-left: 10px;
+    line-height: 30px;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_list-item_text1 {
+    margin-top: 2px;
+    font-size: 14px;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_time1 {
+    margin: 10px;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_time1 .datails_time_sj1 {
+    color: #999;
+}
+.datails_main .datails_base-rate .datails_list-item1 .datails_img {
+    margin: 10px;
+}
+.datails-desc-twxq {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.datails-desc-twxq .datails_desc {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.datails-desc-twxq .datails_desc .datails_desc--start1 {
+    width: 75px;
+    height: 1px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+.datails-desc-twxq .datails_desc .datails_desc--start1 .datails_desc_dian1 {
+    top: -1px;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+.datails-desc-twxq .datails_desc .datails_desc--text {
+    font-size: 14px;
+    line-height: 68px;
+}
+.datails-desc-twxq .datails_desc .datails_desc--start2 {
+    float: right;
+    width: 75px;
+    height: 1px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: -2px;
+    right: 0;
+}
+.datails-desc-twxq .datails_desc .datails_desc--start2 .datails_desc_dian2 {
+    position: absolute;
+    right: 0;
+    top: -1px;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+.datails-desc-twxq .datails_list_chuan {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.datails-desc-twxq .datails_imgList_item {
+    width: 100%;
+    height: auto;
+}
+.datails-desc-twxq .datails_imgList_item .datails_imgList_item_img {
+    width: 100%;
+    margin-bottom: 5px;
+    height: auto;
+}
+.datails-desc-twxq .datails_list_text {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.datails-desc-twxq .datails_imgList {
+    width: 100%;
+    height: auto;
+}
+.datails-desc-twxq .datails_imgList .datails_imgList_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.datails-desc-twxq .datails_meili_base_image {
+    width: 100%;
+    height: 95px;
+}
+.datails-desc-twxq .datails_meili_base_image img {
+    width: 375px;
+    height: 100%;
+}
+@media only screen and (max-width: 320px) {
+    .datails-desc-twxq .datails_meili_base_image img {
+        width: 320px;
+        height: 100%;
+    }
+}
+.datails_meili_parameter {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.datails_meili_parameter .size-table {
+    width: 100%;
+    height: 86px;
+}
+.datails_meili_parameter .size-table .datails_tr {
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.datails_meili_parameter .size-table .datails_tr .size-table_td1 {
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+}
+.datails_meili_parameter .size-table .datails_tr .size-table_td2 {
+    line-height: 40px;
+    width: 70%;
+    height: 40px;
+    display: inline-block;
+}
+.datails_meili_parameter .size-table .datails_tr .size-table_td3 {
+    line-height: 40px;
+    width: 70%;
+    height: 40px;
+    display: inline-block;
+}
+.datails_meili_parameter .datails_ul {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.datails_meili_parameter .datails_ul li {
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    height: 33px;
+    width: 100%;
+    padding: 4px 0;
+}
+.datails_meili_parameter .datails_ul li .datails_ul_span1 {
+    float: left;
+    width: 30%;
+    height: 100%;
+    line-height: 30px;
+}
+.datails_meili_parameter .datails_ul li .datails_ul_span2 {
+    color: #ff2255;
+    float: left;
+    width: 70%;
+    height: 100%;
+    line-height: 30px;
+}
+.datails_recommend_content {
+    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen {
+    display: block;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list {
+    float: left;
+    width: 31%;
+    margin-left: 2%;
+    height: auto;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_image {
+    display: block;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_image .datails_card-link_images {
+    width: 100%;
+    height: auto;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_info .datails_info_name {
+    line-height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    color: #5e5e5e;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_info .datails_info_meta_price {
+    margin-bottom: 10px;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_info .datails_info_meta_price .datails_info_meta_pricespan1 {
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_info .datails_info_meta_price .datails_info_meta_pricespan2 {
+    position: relative;
+    padding-left: 15px;
+    display: inline-block;
+}
+.datails_recommend_content .datails_meili_all_vue_detail_base_recommen .datails_recommend_content_list .datails_card-link .datails_card-link_info .datails_info_meta_price .datails_info_meta_pricespan2 .datails_info_meta_pricei {
+    position: absolute;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    left: 0;
+    top: 2px;
+    background: url("../../images/datails-img/xing.png") no-repeat;
+    background-size: 100% auto;
+}
+.datails_footer {
+    margin-top: 110px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.datails_footer .datails_footer_bar {
+    background-color: white;
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im1 {
+    position: relative;
+    flex: 1;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im1 .datails_footer_img1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    background: url("../../images/datails-img/mass.png") no-repeat;
+    background-size: 100% auto;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im1 .datails_footer_text1 {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im2 {
+    position: relative;
+    flex: 1;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im2 .datails_footer_img2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/datails-img/xing.png") no-repeat;
+    background-size: 100% auto;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im2 .datails_footer_text2 {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im3 {
+    position: relative;
+    flex: 1;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im3 .datails_footer_img3 {
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/datails-img/home.png") no-repeat;
+    background-size: 100% auto;
+}
+.datails_footer .datails_footer_bar .datails_footerbar_im3 .datails_footer_text3 {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+.datails_footer .datails_footer_bae {
+    float: left;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.datails_footer .datails_footer_bae .datails_footer_cart {
+    text-align: center;
+    flex: 1;
+    background: #ffe6e8;
+}
+.datails_footer .datails_footer_bae .datails_footer_cart .datails_footer_cart_span {
+    display: block;
+    padding: 0 5px;
+    box-sizing: border-box;
+    line-height: 50px;
+    font-size: 14px;
+    color: #ff5777;
+}
+.datails_footer .datails_footer_bae .datails_footer_buy {
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    flex: 1;
+    background: linear-gradient(90deg, #ff5777, #ff468f);
+    box-sizing: border-box;
+}
+.datails_footer .datails_footer_bae .datails_footer_buy .datails_footer_buya {
+    color: white;
+    display: block;
+}
+.datails_zhe {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99998;
+}
+.datails_zhe .datails_shang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: black;
+    opacity: 0.3;
+    z-index: 99998;
+}
+.datails_zhe .datails_xiaban {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    opacity: 1;
+    height: 75%;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    max-height: 50%;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods {
+    height: 100px;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_imgs {
+    float: left;
+    margin-left: 10px;
+    width: 70px;
+    height: 100%;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_imgs .datails_xiaban_goods_img {
+    position: relative;
+    top: -50px;
+    width: 100%;
+    height: auto;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 75%;
+    height: 70px;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia {
+    height: 100%;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia .datails_xiaban_goods_right_jia_dl {
+    float: left;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia .datails_xiaban_goods_right_jia_qian {
+    font-size: 22px;
+    text-align: left;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia .datails_xiaban_goods_right_jia_ku {
+    color: black;
+    font-size: 12px;
+    display: block;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia .datails_xiaban_goods_right_jia_yan {
+    font-size: 12px;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia .datails_xiaban_goods_right_jia_se {
+    font-size: 12px;
+}
+.datails_zhe .datails_xiaban .datails_xiaban_goods .datails_xiaban_goods_right .datails_xiaban_goods_right_jia .datails_xiaban_goods_right_jia_ico {
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 20px;
+    position: absolute;
+    right: 6px;
+    line-height: 12px;
+    text-align: center;
+    top: 0;
+}
+.datails_zhe .datails_xiaban .datails_scroll {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_rows {
+    height: 55px;
+    width: 100%;
+    margin-top: 10px;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_rows ul li {
+    margin-top: 5px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 2px;
+    border: 1px solid #cacaca;
+    margin-right: 2px;
+    float: left;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_rows1 {
+    height: 55px;
+    width: 100%;
+    margin-top: 10px;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_rows1 ul li {
+    margin-top: 5px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 2px;
+    border: 1px solid #cacaca;
+    margin-right: 2px;
+    float: left;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_jiajia {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 5px;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_jiajia p {
+    margin-bottom: 4px;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_jiajia .datails_number2 {
+    font-size: 14px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #cacaca;
+    text-align: center;
+    line-height: 20px;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_jiajia .datails_number3 {
+    font-size: 14px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #cacaca;
+    text-align: center;
+    line-height: 20px;
+}
+.datails_zhe .datails_xiaban .datails_scroll .datails_jiajia .datails_number4 {
+    font-size: 14px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #cacaca;
+    text-align: center;
+    line-height: 20px;
+    color: #ff2255;
+}
+.datails_zhe .datails_xiaban .datails_footer_btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #ff2255;
+}
+.datails_zhe .datails_xiaban .datails_footer_btn .datails_footerokbtn {
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+}

@@ -1,0 +1,213 @@
+@import url("../lib/reset.css");
+.mine-top {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  border-bottom: 10px solid #f6f6f6;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.mine-top .top-left {
+  float: left;
+  width: 66px;
+  padding: 23px 0 0 20px;
+}
+.mine-top .top-left img{
+  width: 66px;
+  border-radius: 50%;
+}
+.mine-top .top-right {
+  float: left;
+  padding-top: 23px;
+  padding-left: 15px;
+}
+.mine-top .top-right span {
+  margin-top: 10px;
+  display: block;
+}
+.mine-top .top-right img {
+  margin-left: 100px;
+}
+.mine-list {
+  width: 100%;
+  padding: 100px 0 65px;
+  z-index: 2;
+}
+.mine-list .mine-order {
+  width: 100%;
+  height: 114px;
+  border-bottom: 10px solid #f6f6f6;
+}
+.mine-list .mine-order .mine-order-top {
+  width: 100%;
+  height: 49px;
+  border-bottom: 1px solid #f6f6f6;
+  padding: 12px 18px 0 16px;
+  box-sizing: border-box;
+}
+.mine-list .mine-order .mine-order-top img {
+  float: left;
+}
+.mine-list .mine-order .mine-order-top .mine-order-top-r {
+  display: block;
+  margin-top: 5px;
+}
+.mine-list .mine-order .mine-order-top .mine-order-top-r .my-order {
+  float: left;
+  margin-left: 15px;
+}
+.mine-list .mine-order .mine-order-top .mine-order-top-r img {
+  float: right;
+}
+.mine-list .mine-order .mine-order-bom {
+  width: 100%;
+  height: 64px;
+  text-align: center;
+}
+.mine-list .mine-order .mine-order-bom .dfk {
+  background: url(../../images/mine-img/mine-pic_11.jpg) no-repeat 50% 5px;
+  background-size: 19px auto;
+}
+.mine-list .mine-order .mine-order-bom .dsh {
+  background: url(../../images/mine-img/mine-pic_11.jpg) no-repeat 50% 5px;
+  background-size: 19px auto;
+}
+.mine-list .mine-order .mine-order-bom .dpj {
+  background: url(../../images/mine-img/mine-pic_11.jpg) no-repeat 50% 5px;
+  background-size: 19px auto;
+}
+.mine-list .mine-order .mine-order-bom .sh {
+  background: url(../../images/mine-img/mine-pic_11.jpg) no-repeat 50% 5px;
+  background-size: 19px auto;
+}
+.mine-list .mine-order .mine-order-bom a {
+  width: 22%;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.mine-list .mine-order .mine-order-bom a span {
+  color: #333333;
+  display: inline-block;
+  margin-top: 30px;
+}
+.mine-list .mine-download {
+  width: 100%;
+  height: 65px;
+  border-bottom: 10px solid #f6f6f6;
+  padding: 17px 16px 17px 12px;
+  box-sizing: border-box;
+}
+.mine-list .mine-download .download-left {
+  float: left;
+}
+.mine-list .mine-download .download-center {
+  float: left;
+  margin-left: 13px;
+  margin-top: 9px;
+  color: #585858;
+  font-size: 15px;
+}
+.mine-list .mine-download .download-right {
+  float: right;
+}
+.mine-list .mine-download .download-right .xiazai {
+  border: 1px solid #ff5577;
+  width: 68px;
+  height: 23px;
+  display: block;
+  text-align: center;
+  line-height: 23px;
+  color: #ff5577;
+  margin-top: 3px;
+}
+.mine-list .order-list {
+  width: 100%;
+  height: 50px;
+}
+.mine-list .order-list .order-list-left {
+  width: 50px;
+  float: left;
+  margin-left: 10px;
+  height: 50px;
+  display: inline-block;
+}
+.mine-list .order-list .order-list-left img {
+  margin: 12px 14px 10px 5px;
+}
+.mine-list .order-list .order-list-right {
+  width: 80%;
+  height: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  display: inline-block;
+}
+.mine-list .order-list .order-list-right span {
+  float: left;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.mine-list .order-list .order-list-right img {
+  float: right;
+  margin-top: 19px;
+}
+.mine-list .tui-login {
+  width: 100%;
+  height: 55px;
+  padding: 15px 20px 0 20px;
+  box-sizing: border-box;
+}
+.mine-list .tui-login .tuichu {
+  width: 100%;
+  height: 40px;
+  display: block;
+  background-color: #ff5676;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+.mine-footer {
+  border-top: 1px solid #ededed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  height: 47px;
+  font-size: 0;
+  text-align: center;
+}
+.mine-footer .sy {
+  background: url(../../images/mine-img/mine-pic_30.jpg) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+.mine-footer .fen {
+  background: url(../../images/mine-img/mine-pic_30.jpg) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+.mine-footer .gou {
+  background: url(../../images/mine-img/mine-pic_30.jpg) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+.mine-footer .mine {
+  background: url(../../images/mine-img/mine-pic_27.jpg) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+.mine-footer .mine span {
+  color: #ff708f;
+}
+.mine-footer a {
+  width: 25%;
+  display: inline-block;
+  font-size: 12px;
+}
+.mine-footer a span {
+  position: relative;
+  color: #7f7f7f;
+  display: inline-block;
+  margin-top: 25px;
+}

@@ -1,0 +1,84 @@
+@import url("../lib/reset.css");
+#shara-body {
+  background-color: #cad0f4;
+}
+.share-header {
+  width: 100%;
+  height: auto;
+}
+.share-header .header-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: none;
+  vertical-align: middle;
+}
+.shaer-main {
+  width: 100%;
+  border-top: 15px solid #c4e8fe;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.shaer-main .main-content {
+  padding: 0 5px 10px;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+.shaer-main .main-content a {
+  border-radius: 5px;
+  overflow: hidden;
+  display: block;
+}
+.shaer-main .main-content a img {
+  width: 100%;
+}
+.shaer-main .main-content .title {
+  padding: 0 10px;
+  background-color: #FFFFFF;
+  height: 20px;
+  line-height: 24px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.shaer-main .main-content .goods_info {
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: 30px;
+  line-height: 30px;
+  background-color: #FFFFFF;
+}
+.shaer-main .main-content .goods_info .act-slogan {
+  color: #FF5777;
+  border: 1px solid #FF5777;
+}
+.shaer-main .main-content .goods_info .act-now-price {
+  color: #333;
+  font-size: 15px;
+}
+.shaer-main .main-content .goods_info .act-old-price {
+  color: #a1a09e;
+  float: right;
+  text-decoration: line-through;
+}
+.shaer-main .main-content .Buynow {
+  padding: 0 10px 10px;
+  background-color: #FFFFFF;
+}
+.shaer-main .main-content .Buynow p {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #FF5777;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.share-footer img {
+  display: block;
+  width: 100%;
+}

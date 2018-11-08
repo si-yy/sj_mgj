@@ -1,0 +1,191 @@
+@import url("../lib/reset.css");
+.shop-body {
+  background: #f6f6f6;
+}
+.shop-header {
+  height: 44px;
+  border-bottom: 1px solid #d8d8d8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.shop-header .shop-head {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background: #fafafa;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.shop-header .shop-head .head-back {
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-image: url(../../images/shoppingCart-img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shop-header .shop-head .header-title {
+  font-size: 20px;
+  color: #5e5e5e;
+}
+.shop-header .shop-head .header-title .header-title-num {
+  display: none;
+}
+.shop-header .shop-head .head-mes {
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-image: url(../../images/shoppingCart-img/mass.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shop-main {
+  margin: 45px 0 50px 0;
+  padding-top: 15px;
+}
+.shop-main input[type=checkBox] {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  background-image: url(../../images/shoppingCart-img/checkbox.png);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+}
+.shop-main input[type=checkBox]:checked {
+  bbackground-image: url(../../images/shoppingCart-img/checkbox.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+}
+.shop-main .main-shop {
+  background: #FFFFFF;
+  border-top: 1px solid #d8d8d8;
+  margin-bottom: 15px;
+}
+.shop-main .main-shop .main-shop-head {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 15px;
+  font-weight: normal;
+}
+.shop-main .main-shop .main-shop-head .shop-bond {
+  float: right;
+  font-size: 14px;
+}
+.shop-main .main-shop .main-shop-head .shop-head-title {
+  font-size: 14px;
+  color: #5e5e5e;
+  margin: 0 5px;
+}
+.shop-main .main-shop .goods {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+}
+.shop-main .main-shop .goods .cartgood .good-box {
+  float: left;
+  margin: 40px 15px 0 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/shoppingCart-img/checkbox.png);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+}
+.shop-main .main-shop .goods .cartgood .good-img {
+  float: left;
+  margin-right: 15px;
+}
+.shop-main .main-shop .goods .cartgood .good-img img {
+  height: 100px;
+}
+.shop-main .main-shop .goods .cartgood .good-attr {
+  padding-bottom: 10px;
+}
+.shop-main .main-shop .goods .cartgood .good-attr .good-attr-title {
+  line-height: 20px;
+  color: #5e5e5e;
+}
+.shop-main .main-shop .goods .cartgood .good-attr .good-attr-size {
+  height: 40px;
+  color: #999999;
+}
+.shop-main .main-shop .goods .cartgood .good-attr .good-attr-money {
+  line-height: 24px;
+}
+.shop-main .main-shop .goods .cartgood .good-attr .good-attr-money .good-price-now {
+  color: #333;
+  font-size: 16px;
+}
+.shop-main .main-shop .goods .cartgood .good-attr .good-attr-money .good-price-origin {
+  color: #999;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.shop-main .main-shop .goods .cartgood .good-attr .good-attr-money .good-price-num {
+  float: right;
+  color: #999;
+}
+.shop-footer {
+  height: 50px;
+  border-top: 1px solid #d8d8d8;
+  background: #FFFFFF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.shop-footer .shop-foot {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 10px;
+}
+.shop-footer .shop-foot .checkout-checkbox input[type=checkBox] {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/shoppingCart-img/checkbox.png);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+}
+.shop-footer .shop-foot .checkout-checkbox input[type=checkBox]:checked {
+  bbackground-image: url(../../images/shoppingCart-img/checkbox.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+}
+.shop-footer .shop-foot .totalPrices {
+  color: #ff5777;
+}
+.shop-footer .footer-account {
+  display: block;
+  background: #ff5777;
+  color: #FFFFFF;
+  width: 100px;
+  height: 34px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 34px;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
